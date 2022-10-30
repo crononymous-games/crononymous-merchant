@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Supply.sol";
 contract Merchant is ERC1155, Ownable, Pausable, ERC1155Supply {
     mapping(uint256 => uint256) private priceById;
 
-    constructor() ERC1155("https://ipfs.io/ipfs/bafybeielibl6cu6ibvrl6e6tg6g733jq7dbaxjjzmlef76a47fwauemndy/{id}.json") {}
+    constructor() ERC1155("https://raw.githubusercontent.com/crononymous-games/crononymous-merchant/master/metadata/{id}.json") {}
 
     function setURI(string memory newuri) public onlyOwner {
         _setURI(newuri);
