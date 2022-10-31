@@ -1,4 +1,8 @@
 {
   "chain": "binance smart chain testnet",
-  "address": "0xCF4a8a0906C067024c522dc887CD67a589648A7e"
+  "address": "0xCF4a8a0906C067024c522dc887CD67a589648A7e",
+  "openSea": {
+    "collectionLink": "https://testnets.opensea.io/collection/crononymous-merchant",
+    "assetLink": "https://testnets.opensea.io/assets/bsc-testnet/0xcf4a8a0906c067024c522dc887cd67a589648a7e/"
+  }
 }
