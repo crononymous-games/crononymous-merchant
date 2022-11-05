@@ -1,5 +1,5 @@
 {
-  "chainId": "97",
+  "chainId": 97,
   "chainName": "binance smart chain testnet",
   "contractAddress": "0xCF4a8a0906C067024c522dc887CD67a589648A7e",
   "contractUrl": "https://github.com/crononymous-games/crononymous-merchant",
